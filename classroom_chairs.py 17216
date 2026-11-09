@@ -1,0 +1,40 @@
+print ("A classroom has many chairs, and a code that can quickly multiply the number of chairs in each row by the total number of rows needs to be written.")
+'''
+ The inputs are; number of rows =(6)  number of chairs = (8)
+ The process; Multiplicatoin of rows(6) by column(8)     : 8 * 6
+ output : The total number of chairs in the classroom.
+ NUMBERED ALGORITHM:----
+   START
+  set numbet of rows = 6
+ number of chairs in a row = 8
+ multiply number rows by the number of chairs in each row
+ Display number of rows
+Display numdet of chairs per row
+  Display total chairs 
+  STOP
+ PSEUDOCODE:------
+ BEGIN
+  SET  row to 6
+   SET  chairs per row to 8
+ SET total TO rows * chairs per row
+     PRINT   "Numbers of rows : ", rows
+    PRINT   " Chairs per row: ", chairs per row
+      PRINT " Total chairs: ",  tota
+END
+'''
+#PHYTON PROGRAM:-----
+print ( )
+rows = 6
+chairs_per_row = 8
+total = rows * chairs_per_row
+print( f"Number of rows : {rows}")
+print(f"Number of chairs per row : {chairs_per_row}")
+print ( )
+print(f"Total chairs : {total}")
+''' MANUAL CALCULATION
+On my calculator I got 6 * 8 = 48
+On  the program 6 * 8 = 48
+The program quickly display the total number of chairs in the classroom by multipying the number of chairs in a row by the number of rows and shows us our
+total ( The result of the clculation)  
+ Conclusion : having compared both my manual calculation and  the program calculation I confirmed  they are thesame therefore , the program is correct.
+ '''
